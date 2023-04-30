@@ -1,23 +1,17 @@
 <template>
   <div class="bg-zinc-800 w-full  min-h-screen">
-  <div class="container mx-auto py-4">
-    <div class="flex flex-wrap justify-center">
-      <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-        <!-- Content Here -->
-     <div class="flex">
-       <div class="text-xl font-bold w-1/2">
-          Generate Profile with a click of a button
-      </div>
-     </div>
-      </div>
-      <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-        <!-- Content Here -->
-      </div>
-      <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-        <!-- Content Here -->
+<div class="container">
+  <div class="flex gap-x-2">
+    <div class="w-1/2">
+      <div class="text-lg font-bold">
+        Generate Watches with a click of a button
       </div>
     </div>
+    <div class="w-1/2">
+      <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1399&q=80" alt="">
+    </div>
   </div>
+</div>
 </div>
 </template>
 
